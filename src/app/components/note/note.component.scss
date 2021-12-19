@@ -1,0 +1,21 @@
+.container {
+  position: relative;
+  padding: 25px 25px 35px 25px;
+  overflow: visible;
+}
+svg {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.grow {
+  position: relative;
+  z-index: 2;
+  font-family: "Fuzzy Bubbles", cursive;
+  outline: none;
+  width: max-content;
+  min-width: 100px;
+  min-height: 18px;
+}
