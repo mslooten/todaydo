@@ -10,6 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - run: npm i corepack@0.32.0
       - run: corepack enable
       - uses: actions/setup-node@v4
         with:
